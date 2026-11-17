@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aussie Citizenship Test Practice</title>
+<meta name="description" content="Practice for the Australian citizenship test: 200 questions with reasons, an official-format mock test and a leaderboard.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" id="brand" role="button" tabindex="0" aria-label="Home">🇦🇺 <span>Citizenship Test Practice</span></div>
+  <nav id="nav" aria-label="Main">
+    <button data-view="home">Home</button>
+    <button data-view="mock">Mock test</button>
+    <button data-view="practice">Practice</button>
+    <button data-view="browse">All 200</button>
+    <button data-view="leaderboard">Leaderboard</button>
+    <button data-view="about">About</button>
+  </nav>
+  <div class="players" id="players" aria-label="Who is playing"></div>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer>Unofficial study aid. Not affiliated with the Department of Home Affairs. See the About page for sources.</footer>
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
